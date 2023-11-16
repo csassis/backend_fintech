@@ -13,7 +13,6 @@ public class Inicializador {
 		Date hoje = new Date();
 		int usuarioId = 1;
 
-		System.out.println("Inserindo a despesa");
 		DespesaModel despesa = new DespesaModel();
 		despesa.setDataCriacao(hoje);
 		despesa.setTipo("Supermercado");
