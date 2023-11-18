@@ -20,7 +20,7 @@ public class ContaBancariaDAO implements IDAO<ContaBancariaModel> {
             stmt.setString(2, conta.getConta());
             stmt.setDouble(3, conta.getSaldo());
             stmt.setString(4, conta.getTipoConta());
-            stmt.setInt(5,conta.isAtivo() ? 1 : 0);
+            stmt.setInt(5,conta.isAtivo() ? 1 : 2);
             stmt.setInt (6,conta.getUsuarioID());
             stmt.executeUpdate();
             System.out.println("Dados da conta bancária inseridos com sucesso");
