@@ -10,15 +10,7 @@ public class CartaoModel {
 	private int numeroCartao;
 	private String tipoCartao;
 	private boolean ativo;
-	
-<<<<<<< HEAD
-	public CartaoModel(int id, String nomeBandeira2, Calendar dataValidade2, int codigoSeguranca2, String nomeImpresso2, int numeroCartao2, String tipoCartao2, boolean ativo2) {
-=======
-	public CartaoModel() {
->>>>>>> ea651bdc9566cfd50a8f87f204957c84b158be47
-		super();
-	}
-	
+
 	public CartaoModel(String nomeBandeira, Calendar dataValidade, int codigoSeguranca, String nomeImpresso,
 			int numeroCartao, String tipoCartao, boolean ativo) {
 		super();
