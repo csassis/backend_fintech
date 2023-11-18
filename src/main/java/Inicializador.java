@@ -2,10 +2,15 @@ import java.util.Date;
 import java.util.List;
 
 import br.com.fintech.DBConnection.DBManager;
+<<<<<<< HEAD
 import br.com.fintech.dao.ContaBancariaDAO;
 import br.com.fintech.dao.DespesaDAO;
 import br.com.fintech.dao.InvestimentoDAO;
 import br.com.fintech.models.ContaBancariaModel;
+=======
+import br.com.fintech.dao.DespesaDAO;
+import br.com.fintech.dao.InvestimentoDAO;
+>>>>>>> ea651bdc9566cfd50a8f87f204957c84b158be47
 import br.com.fintech.models.DespesaModel;
 import br.com.fintech.models.InvestimentoModel;
 
@@ -36,6 +41,7 @@ public class Inicializador {
 		System.out.println("Buscando os investimentos");
 		List<InvestimentoModel> investimentos = investimentoDao.getAll(DBManager.getConnection());
 		System.out.println(investimentos);
+<<<<<<< HEAD
 		
 		ContaBancariaModel contabancaria = new ContaBancariaModel();
 		contabancaria.setAgencia("csa");
@@ -52,3 +58,8 @@ public class Inicializador {
 
 }
 
+=======
+	}
+
+}
+>>>>>>> ea651bdc9566cfd50a8f87f204957c84b158be47

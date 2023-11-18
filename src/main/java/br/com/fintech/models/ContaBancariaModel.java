@@ -1,7 +1,10 @@
 package br.com.fintech.models;
 
 public class ContaBancariaModel {
+<<<<<<< HEAD
 	private int usuarioID;
+=======
+>>>>>>> ea651bdc9566cfd50a8f87f204957c84b158be47
 	private String agencia;
 	private String conta;
 	private double saldo;
@@ -20,6 +23,7 @@ public class ContaBancariaModel {
 		this.tipoConta 		= tipoConta;
 		this.ativo 			= ativo;
 	}
+<<<<<<< HEAD
 	public int getUsuarioID() {
 		return usuarioID;
 	}
@@ -27,6 +31,9 @@ public class ContaBancariaModel {
 		this.usuarioID = usuarioID;
 	}
 	
+=======
+
+>>>>>>> ea651bdc9566cfd50a8f87f204957c84b158be47
 	public String getAgencia() {
 		return agencia;
 	}
