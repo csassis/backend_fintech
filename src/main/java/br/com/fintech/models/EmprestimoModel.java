@@ -3,11 +3,7 @@ package br.com.fintech.models;
 import java.util.Calendar;
 
 public class EmprestimoModel {
-<<<<<<< HEAD
-	
-=======
 	private int id;
->>>>>>> ea651bdc9566cfd50a8f87f204957c84b158be47
 	private double valor;
 	private double tributo;
 	private String jurosMensal;
@@ -22,11 +18,7 @@ public class EmprestimoModel {
 	public EmprestimoModel(int id, double valor, double tributo, String jurosMensal, int quantidadeParcela,
 			int quantidadeParcelaPaga, Calendar data) {
 		super();
-<<<<<<< HEAD
-		
-=======
 		this.id 					= id;
->>>>>>> ea651bdc9566cfd50a8f87f204957c84b158be47
 		this.valor 					= valor;
 		this.tributo 				= tributo;
 		this.jurosMensal 			= jurosMensal;
